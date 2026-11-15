@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Buku catatan kuning">
+<rect x="78" y="44" width="170" height="234" rx="14" fill="#f7c948"/>
+<rect x="78" y="44" width="30" height="234" rx="14" fill="#e2a91c"/>
+<rect x="94" y="44" width="14" height="234" fill="#e2a91c"/>
+<rect x="224" y="44" width="10" height="234" fill="#1b3a8a"/>
+<circle cx="93" cy="76" r="7" fill="#ffffff"/>
+<circle cx="93" cy="112" r="7" fill="#ffffff"/>
+<circle cx="93" cy="148" r="7" fill="#ffffff"/>
+<circle cx="93" cy="184" r="7" fill="#ffffff"/>
+<circle cx="93" cy="220" r="7" fill="#ffffff"/>
+<circle cx="93" cy="256" r="7" fill="#ffffff"/>
+<rect x="124" y="96" width="92" height="70" rx="8" fill="#ffffff"/>
+<rect x="136" y="112" width="68" height="7" rx="3.5" fill="#c9d7ea"/>
+<rect x="136" y="128" width="50" height="7" rx="3.5" fill="#c9d7ea"/>
+<rect x="136" y="144" width="60" height="7" rx="3.5" fill="#f4b400"/>
+</svg>

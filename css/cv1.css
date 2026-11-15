@@ -1,0 +1,469 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v-body {
+  --v-primary: #4A90E2;
+  --v-bg: #E6F0FF;
+  --v-card: #F5F5F5;
+  --v-text: #2E2E2E;
+  --v-accent: #FF6B6B;
+  --v-line: rgba(46, 46, 46, 0.55);
+  padding: 28px 24px 40px;
+  background: var(--v-bg);
+  color: var(--v-text);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.v-frame {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 18px;
+  background: #ffffff;
+  border: 2px solid var(--v-text);
+  border-radius: 22px;
+}
+
+.v-ico {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: var(--v-text);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.v-ico-lg {
+  width: 30px;
+  height: 30px;
+}
+
+.v-header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 12px 20px;
+  border: 1.5px solid var(--v-text);
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.v-logo {
+  flex: none;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--v-text);
+  border-radius: 50%;
+  color: var(--v-text);
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.v-menu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.v-menu-link {
+  padding: 9px 20px;
+  border-radius: 999px;
+  color: var(--v-text);
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.v-menu-link:hover {
+  background: var(--v-bg);
+}
+
+.v-menu-active,
+.v-menu-active:hover {
+  background: var(--v-primary);
+}
+
+.v-search {
+  flex: none;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  border: 1.5px solid var(--v-text);
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.v-search .v-ico {
+  width: 20px;
+  height: 20px;
+}
+
+.v-search-input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--v-text);
+  font: 400 14px "Inter", sans-serif;
+}
+
+.v-search:focus-within {
+  outline: 2px solid var(--v-primary);
+  outline-offset: 1px;
+}
+
+.v-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+.v-side {
+  padding: 26px 22px 24px;
+  background: var(--v-bg);
+  border: 1.5px solid var(--v-text);
+  border-radius: 14px;
+  scroll-margin-top: 20px;
+}
+
+.v-avatar-wrap {
+  position: relative;
+  width: 160px;
+  margin: 0 auto 28px;
+}
+
+.v-avatar-link {
+  display: block;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.v-avatar-link:hover {
+  transform: scale(1.04);
+}
+
+.v-avatar {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border: 2px solid var(--v-text);
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.v-badge {
+  position: absolute;
+  left: 50%;
+  bottom: -14px;
+  transform: translateX(-50%);
+  padding: 5px 13px;
+  border: 1.5px solid var(--v-text);
+  border-radius: 999px;
+  background: var(--v-accent);
+  color: var(--v-text);
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 11.5px;
+  line-height: 1.3;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.v-badge:hover {
+  transform: translateX(-50%) scale(1.06);
+}
+
+.v-name {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.3;
+}
+
+.v-role {
+  margin: 4px 0 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.v-line {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid var(--v-line);
+}
+
+.v-info {
+  display: grid;
+  gap: 13px;
+  scroll-margin-top: 20px;
+}
+
+.v-info-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.v-info-text {
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.v-side-title {
+  margin: 0 0 10px;
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.v-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.v-chip {
+  padding: 4px 13px;
+  border: 1.5px solid var(--v-primary);
+  border-radius: 999px;
+  background: #D4E5FB;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.v-main {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
+.v-banner {
+  position: relative;
+  height: 172px;
+  overflow: hidden;
+  background: var(--v-bg);
+  border: 1.5px solid var(--v-text);
+  border-radius: 14px;
+}
+
+.v-banner-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
+
+.v-quote {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  margin: 0;
+  transform: translateY(-50%);
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.v-card {
+  position: relative;
+  padding: 16px 24px 18px;
+  background: var(--v-card);
+  border: 1.5px solid var(--v-text);
+  border-radius: 14px;
+  scroll-margin-top: 20px;
+}
+
+.v-card-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--v-line);
+}
+
+.v-card-title {
+  margin: 0;
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.v-card-head .v-ico-lg {
+  margin-left: -2px;
+}
+
+.v-card-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.v-edu-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.v-edu-meta {
+  margin: 2px 0 0;
+  font-size: 16px;
+}
+
+.v-exp {
+  list-style: disc;
+  padding-left: 22px;
+  font-size: 16px;
+}
+
+.v-exp-item {
+  padding-left: 8px;
+  line-height: 1.7;
+}
+
+.v-exp-item::marker {
+  color: var(--v-text);
+}
+
+.v-card-go .v-card-head {
+  margin-right: 0;
+}
+
+.v-go {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: var(--v-text);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.v-footer {
+  height: 38px;
+  margin-top: 18px;
+  background: var(--v-bg);
+  border: 1.5px solid var(--v-text);
+  border-radius: 12px;
+}
+
+@media (max-width: 960px) {
+  .v-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .v-search {
+    display: none;
+  }
+
+  .v-header {
+    gap: 16px;
+  }
+
+  .v-menu {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .v-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .v-menu-link {
+    padding: 8px 14px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 560px) {
+  .v-body {
+    padding: 12px 10px 24px;
+  }
+
+  .v-frame {
+    padding: 10px;
+    border-radius: 16px;
+  }
+
+  .v-header {
+    padding: 10px 12px;
+  }
+
+  .v-banner {
+    height: 140px;
+  }
+
+  .v-quote {
+    right: 12px;
+    padding: 6px 12px;
+    background: rgba(230, 240, 255, 0.92);
+    border-radius: 10px;
+    font-size: 17px;
+  }
+
+  .v-card {
+    padding: 14px 16px 16px;
+  }
+
+  .v-card-title {
+    font-size: 19px;
+  }
+
+  .v-card-text,
+  .v-exp,
+  .v-edu-meta {
+    font-size: 15px;
+  }
+
+  .v-go {
+    right: 14px;
+    bottom: 16px;
+  }
+}

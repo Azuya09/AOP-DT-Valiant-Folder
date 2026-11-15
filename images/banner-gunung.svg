@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 170" width="600" height="170" preserveAspectRatio="xMinYMax meet" role="img" aria-label="Ilustrasi gunung dan matahari">
+<circle cx="392" cy="44" r="23" fill="#FF6B6B" stroke="#2E2E2E" stroke-width="1.5"/>
+<path d="M0 170L168 30L336 170Z" fill="#C9DCF6" stroke="#2E2E2E" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M150 170L296 60L466 170Z" fill="#8DB9EC" stroke="#2E2E2E" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M352 170L442 98L580 170Z" fill="#4A90E2" stroke="#2E2E2E" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

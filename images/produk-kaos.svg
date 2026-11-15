@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Kaos polos hijau mint">
+<path d="M106 54L56 84L80 134L108 118L108 270L212 270L212 118L240 134L264 84L214 54Q160 96 106 54Z" fill="#7fd1ae"/>
+<path d="M106 54Q160 96 214 54" fill="none" stroke="#4fb58c" stroke-width="10" stroke-linecap="round"/>
+<path d="M56 84L80 134L96 125L72 78Z" fill="#6bc29c"/>
+<path d="M264 84L240 134L224 125L248 78Z" fill="#6bc29c"/>
+<circle cx="160" cy="154" r="22" fill="#ffffff"/>
+<circle cx="160" cy="154" r="10" fill="#f4b400"/>
+</svg>

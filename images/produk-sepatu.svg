@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Sepatu sneakers putih">
+<path d="M54 230L54 140Q54 124 70 122L96 118Q112 150 150 158L232 172Q284 184 290 230Z" fill="#ffffff" stroke="#1b3a8a" stroke-width="6" stroke-linejoin="round"/>
+<path d="M236 174Q284 184 290 230L252 230Q256 200 236 174Z" fill="#cfe3fb"/>
+<path d="M82 200Q130 176 196 206" fill="none" stroke="#2f6fdb" stroke-width="11" stroke-linecap="round"/>
+<path d="M120 136L138 150M134 128L152 142M148 120L166 134" stroke="#1b3a8a" stroke-width="5" stroke-linecap="round"/>
+<rect x="42" y="226" width="256" height="28" rx="14" fill="#f4b400"/>
+<rect x="42" y="226" width="256" height="10" rx="5" fill="#e2a91c"/>
+</svg>

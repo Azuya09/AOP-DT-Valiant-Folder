@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Pengiriman">
+<rect x="4" y="12" width="26" height="22" rx="3" fill="#2f6fdb"/>
+<path d="M30 20H38L44 27V34H30Z" fill="#5b93ee"/>
+<circle cx="14" cy="36" r="5" fill="#f4b400" stroke="#ffffff" stroke-width="2"/>
+<circle cx="36" cy="36" r="5" fill="#f4b400" stroke="#ffffff" stroke-width="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Botol minum biru muda">
+<rect x="126" y="34" width="68" height="36" rx="11" fill="#f4b400"/>
+<rect x="136" y="68" width="48" height="20" fill="#c9d7ea"/>
+<rect x="104" y="84" width="112" height="200" rx="32" fill="#52b6e8"/>
+<rect x="104" y="146" width="112" height="76" fill="#ffffff"/>
+<circle cx="160" cy="184" r="18" fill="#f4b400"/>
+<rect x="120" y="100" width="12" height="150" rx="6" fill="#ffffff" opacity="0.5"/>
+<rect x="104" y="262" width="112" height="22" rx="11" fill="#2f95cf"/>
+</svg>

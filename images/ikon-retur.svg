@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Retur mudah">
+<circle cx="24" cy="24" r="19" fill="#f4b400"/>
+<path d="M32 18A10 10 0 1 0 34 26" fill="none" stroke="#1b3a8a" stroke-width="4" stroke-linecap="round"/>
+<path d="M33 10L33 19L24 19" fill="none" stroke="#1b3a8a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
