@@ -22,7 +22,7 @@ ul {
   list-style: none;
 }
 
-.v-body {
+.valiant-body {
   --v-primary: #4A90E2;
   --v-bg: #E6F0FF;
   --v-card: #F5F5F5;
@@ -37,7 +37,7 @@ ul {
   line-height: 1.55;
 }
 
-.v-frame {
+.valiant-frame {
   max-width: 1160px;
   margin: 0 auto;
   padding: 18px;
@@ -46,7 +46,7 @@ ul {
   border-radius: 22px;
 }
 
-.v-ico {
+.valiant-ico {
   flex: none;
   width: 22px;
   height: 22px;
@@ -57,12 +57,12 @@ ul {
   stroke-linejoin: round;
 }
 
-.v-ico-lg {
+.valiant-ico-lg {
   width: 30px;
   height: 30px;
 }
 
-.v-header {
+.valiant-header {
   display: flex;
   align-items: center;
   gap: 28px;
@@ -72,7 +72,7 @@ ul {
   background: #ffffff;
 }
 
-.v-logo {
+.valiant-logo {
   flex: none;
   width: 46px;
   height: 46px;
@@ -87,14 +87,14 @@ ul {
   text-decoration: none;
 }
 
-.v-menu {
+.valiant-menu {
   display: flex;
   align-items: center;
   gap: 6px;
   flex: 1;
 }
 
-.v-menu-link {
+.valiant-menu-link {
   padding: 9px 20px;
   border-radius: 999px;
   color: var(--v-text);
@@ -105,16 +105,16 @@ ul {
   transition: background 0.15s ease;
 }
 
-.v-menu-link:hover {
+.valiant-menu-link:hover {
   background: var(--v-bg);
 }
 
-.v-menu-active,
-.v-menu-active:hover {
+.valiant-menu-active,
+.valiant-menu-active:hover {
   background: var(--v-primary);
 }
 
-.v-search {
+.valiant-search {
   flex: none;
   width: 150px;
   display: flex;
@@ -126,12 +126,12 @@ ul {
   background: #ffffff;
 }
 
-.v-search .v-ico {
+.valiant-search .valiant-ico {
   width: 20px;
   height: 20px;
 }
 
-.v-search-input {
+.valiant-search-input {
   width: 100%;
   min-width: 0;
   border: 0;
@@ -141,12 +141,12 @@ ul {
   font: 400 14px "Inter", sans-serif;
 }
 
-.v-search:focus-within {
+.valiant-search:focus-within {
   outline: 2px solid var(--v-primary);
   outline-offset: 1px;
 }
 
-.v-layout {
+.valiant-layout {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 20px;
@@ -154,7 +154,7 @@ ul {
   align-items: stretch;
 }
 
-.v-side {
+.valiant-side {
   padding: 26px 22px 24px;
   background: var(--v-bg);
   border: 1.5px solid var(--v-text);
@@ -162,23 +162,23 @@ ul {
   scroll-margin-top: 20px;
 }
 
-.v-avatar-wrap {
+.valiant-avatar-wrap {
   position: relative;
   width: 160px;
   margin: 0 auto 28px;
 }
 
-.v-avatar-link {
+.valiant-avatar-link {
   display: block;
   border-radius: 50%;
   transition: transform 0.2s ease;
 }
 
-.v-avatar-link:hover {
+.valiant-avatar-link:hover {
   transform: scale(1.04);
 }
 
-.v-avatar {
+.valiant-avatar {
   display: block;
   width: 160px;
   height: 160px;
@@ -189,7 +189,7 @@ ul {
   background: #ffffff;
 }
 
-.v-badge {
+.valiant-badge {
   position: absolute;
   left: 50%;
   bottom: -14px;
@@ -208,11 +208,11 @@ ul {
   transition: transform 0.15s ease;
 }
 
-.v-badge:hover {
+.valiant-badge:hover {
   transform: translateX(-50%) scale(1.06);
 }
 
-.v-name {
+.valiant-name {
   margin: 0;
   text-align: center;
   font-family: "Poppins", "Inter", sans-serif;
@@ -221,49 +221,49 @@ ul {
   line-height: 1.3;
 }
 
-.v-role {
+.valiant-role {
   margin: 4px 0 0;
   text-align: center;
   font-size: 15px;
 }
 
-.v-line {
+.valiant-line {
   margin: 18px 0;
   border: 0;
   border-top: 1px solid var(--v-line);
 }
 
-.v-info {
+.valiant-info {
   display: grid;
   gap: 13px;
   scroll-margin-top: 20px;
 }
 
-.v-info-item {
+.valiant-info-item {
   display: flex;
   align-items: center;
   gap: 14px;
 }
 
-.v-info-text {
+.valiant-info-text {
   font-size: 15px;
   overflow-wrap: anywhere;
 }
 
-.v-side-title {
+.valiant-side-title {
   margin: 0 0 10px;
   font-family: "Poppins", "Inter", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
-.v-chips {
+.valiant-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.v-chip {
+.valiant-chip {
   padding: 4px 13px;
   border: 1.5px solid var(--v-primary);
   border-radius: 999px;
@@ -272,13 +272,13 @@ ul {
   line-height: 1.5;
 }
 
-.v-main {
+.valiant-main {
   display: grid;
   gap: 16px;
   align-content: start;
 }
 
-.v-banner {
+.valiant-banner {
   position: relative;
   height: 172px;
   overflow: hidden;
@@ -287,7 +287,7 @@ ul {
   border-radius: 14px;
 }
 
-.v-banner-img {
+.valiant-banner-img {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -296,7 +296,7 @@ ul {
   max-width: none;
 }
 
-.v-quote {
+.valiant-quote {
   position: absolute;
   right: 28px;
   top: 50%;
@@ -308,7 +308,7 @@ ul {
   line-height: 1.3;
 }
 
-.v-card {
+.valiant-card {
   position: relative;
   padding: 16px 24px 18px;
   background: var(--v-card);
@@ -317,7 +317,7 @@ ul {
   scroll-margin-top: 20px;
 }
 
-.v-card-head {
+.valiant-card-head {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -326,54 +326,54 @@ ul {
   border-bottom: 1px solid var(--v-line);
 }
 
-.v-card-title {
+.valiant-card-title {
   margin: 0;
   font-family: "Poppins", "Inter", sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
 
-.v-card-head .v-ico-lg {
+.valiant-card-head .valiant-ico-lg {
   margin-left: -2px;
 }
 
-.v-card-text {
+.valiant-card-text {
   margin: 0;
   font-size: 16px;
   line-height: 1.65;
 }
 
-.v-edu-name {
+.valiant-edu-name {
   margin: 0;
   font-weight: 600;
   font-size: 17px;
 }
 
-.v-edu-meta {
+.valiant-edu-meta {
   margin: 2px 0 0;
   font-size: 16px;
 }
 
-.v-exp {
+.valiant-exp {
   list-style: disc;
   padding-left: 22px;
   font-size: 16px;
 }
 
-.v-exp-item {
+.valiant-exp-item {
   padding-left: 8px;
   line-height: 1.7;
 }
 
-.v-exp-item::marker {
+.valiant-exp-item::marker {
   color: var(--v-text);
 }
 
-.v-card-go .v-card-head {
+.valiant-card-go .valiant-card-head {
   margin-right: 0;
 }
 
-.v-go {
+.valiant-go {
   position: absolute;
   right: 22px;
   bottom: 22px;
@@ -386,7 +386,7 @@ ul {
   stroke-linejoin: round;
 }
 
-.v-footer {
+.valiant-footer {
   height: 38px;
   margin-top: 18px;
   background: var(--v-bg);
@@ -395,52 +395,52 @@ ul {
 }
 
 @media (max-width: 960px) {
-  .v-layout {
+  .valiant-layout {
     grid-template-columns: 1fr;
   }
 
-  .v-search {
+  .valiant-search {
     display: none;
   }
 
-  .v-header {
+  .valiant-header {
     gap: 16px;
   }
 
-  .v-menu {
+  .valiant-menu {
     overflow-x: auto;
     scrollbar-width: none;
   }
 
-  .v-menu::-webkit-scrollbar {
+  .valiant-menu::-webkit-scrollbar {
     display: none;
   }
 
-  .v-menu-link {
+  .valiant-menu-link {
     padding: 8px 14px;
     white-space: nowrap;
   }
 }
 
 @media (max-width: 560px) {
-  .v-body {
+  .valiant-body {
     padding: 12px 10px 24px;
   }
 
-  .v-frame {
+  .valiant-frame {
     padding: 10px;
     border-radius: 16px;
   }
 
-  .v-header {
+  .valiant-header {
     padding: 10px 12px;
   }
 
-  .v-banner {
+  .valiant-banner {
     height: 140px;
   }
 
-  .v-quote {
+  .valiant-quote {
     right: 12px;
     padding: 6px 12px;
     background: rgba(230, 240, 255, 0.92);
@@ -448,21 +448,21 @@ ul {
     font-size: 17px;
   }
 
-  .v-card {
+  .valiant-card {
     padding: 14px 16px 16px;
   }
 
-  .v-card-title {
+  .valiant-card-title {
     font-size: 19px;
   }
 
-  .v-card-text,
-  .v-exp,
-  .v-edu-meta {
+  .valiant-card-text,
+  .valiant-exp,
+  .valiant-edu-meta {
     font-size: 15px;
   }
 
-  .v-go {
+  .valiant-go {
     right: 14px;
     bottom: 16px;
   }
